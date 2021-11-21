@@ -1,10 +1,7 @@
 #ifndef Game_h
 #define Game_h
 
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include "Button.h"
-#include <iostream>
+#include "UI.h"
 
 //this is a class that acts like the game engine
 
@@ -18,8 +15,7 @@ private:
 
     //GameObjects
     sf::Color bgColor;
-    Button* button;
-    sf::Font font;
+    std::unique_ptr<UI> ui;
 
     void initVariables();
     void initGameObjects();

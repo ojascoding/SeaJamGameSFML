@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Button.cpp" "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles/SeaJamGameSFML.dir/src/Button.cpp.o"
   "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.cpp" "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles/SeaJamGameSFML.dir/src/Game.cpp.o"
+  "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp" "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.o"
   "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/main.cpp" "/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles/SeaJamGameSFML.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

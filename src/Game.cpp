@@ -7,13 +7,12 @@ Game::Game()
 {
     initVariables();
     initGameObjects();
-
 }
 
 //Destructor
 Game::~Game()
 {
-    delete button;
+
 }
 
 //Initialization
@@ -29,10 +28,7 @@ void Game::initVariables()
     window->setFramerateLimit(60);
 
     bgColor = sf::Color(241, 244, 214);
-    if(!font.loadFromFile("../Assets/Fonts/Abel-Regular.ttf"))
-        std::cout << "Font Failed to Load" << std::endl;
-
-    button = new Button(videoMode.width / 2 - 80, videoMode.height - 100, 160, 80, "New Game", font, sf::Color(70, 70, 70, 255), sf::Color(100, 100, 100, 200), sf::Color(20, 20, 20, 200));
+    ui = std::make_unique<UI>(videoMode);
 }
 
 
@@ -69,7 +65,7 @@ void Game::pollEvents()
 void Game::update()
 {
     pollEvents();
-    button->update(sf::Mouse::getPosition(*window));
+    ui->update(window.get());
 }
 
 void Game::render()
@@ -78,7 +74,8 @@ void Game::render()
     window->clear(bgColor);
 
     //render objects
-    button->render(this->window.get());
+    ui->render(window.get());
+
     //display frame in window
     window->display();
 }
@@ -88,5 +85,3 @@ bool Game::isRunning()
 {
     return window->isOpen();
 }
-
-

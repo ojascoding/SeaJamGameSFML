@@ -19,12 +19,26 @@ Game.h
 /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.h
 
 /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.h
+UI.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h
+
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp
+UI.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h
+
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h
 SFML/Graphics.hpp
 -
 SFML/Window.hpp
 -
 Button.h
 /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Button.h
+iostream
+-
+
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/main.cpp
+Game.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.h
 iostream
 -
 

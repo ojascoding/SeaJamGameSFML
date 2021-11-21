@@ -94,6 +94,12 @@
 		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.h">
 			<Option target="SeaJamGameSFML"/>
 		</Unit>
+		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp">
+			<Option target="SeaJamGameSFML"/>
+		</Unit>
+		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h">
+			<Option target="SeaJamGameSFML"/>
+		</Unit>
 		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/main.cpp">
 			<Option target="SeaJamGameSFML"/>
 		</Unit>

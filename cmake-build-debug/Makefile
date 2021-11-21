@@ -177,6 +177,30 @@ src/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
+src/UI.o: src/UI.cpp.o
+.PHONY : src/UI.o
+
+# target to build an object file
+src/UI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.o
+.PHONY : src/UI.cpp.o
+
+src/UI.i: src/UI.cpp.i
+.PHONY : src/UI.i
+
+# target to preprocess a source file
+src/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.i
+.PHONY : src/UI.cpp.i
+
+src/UI.s: src/UI.cpp.s
+.PHONY : src/UI.s
+
+# target to generate assembly for a file
+src/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.s
+.PHONY : src/UI.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
+	@echo "... src/UI.o"
+	@echo "... src/UI.i"
+	@echo "... src/UI.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
