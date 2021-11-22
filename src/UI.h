@@ -19,6 +19,15 @@ private:
     sf::Texture shopMenuTexture;
     sf::Sprite shopMenuSprite;
 
+    sf::Text pollutionText;
+    sf::Text fishText;
+    sf::Font textFont;
+
+    int pollutionAmount = 50;
+    int fishAmount = 50;
+    int moneyAmount = 500;
+
+    bool shouldShopMenu;
 
     void initVariables(sf::VideoMode &videoMode);
 public:

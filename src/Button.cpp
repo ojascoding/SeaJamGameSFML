@@ -17,7 +17,7 @@ Button::Button(float x , float y , float width, float height ,
     m_text.setFont(*m_font);
     m_text.setString(text);
     m_text.setFillColor(sf::Color::White);
-    m_text.setCharacterSize(18);
+    m_text.setCharacterSize(36);
 
     m_text.setPosition
     (
@@ -46,13 +46,21 @@ void Button::update(sf::Vector2<int> mousePos)
 {
     buttonState = ButtonState::Idle;
 
+    static bool lockClick = false;
+
     if(m_rect.getGlobalBounds().contains(mousePos.x, mousePos.y))
     {
         buttonState = ButtonState::Hover;
 
-        if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
+        if(sf::Mouse::isButtonPressed(sf::Mouse::Left) && !lockClick)
         {
             buttonState = ButtonState::Pressed;
+            lockClick = true;
+        }
+
+        else if(!sf::Mouse::isButtonPressed(sf::Mouse::Left))
+        {
+            lockClick = false;
         }
     }
 
@@ -91,5 +99,7 @@ bool Button::isPressed() const
     return false;
 }
 
-
-
+sf::Vector2f Button::getPos()
+{
+    return this->m_rect.getPosition();
+}

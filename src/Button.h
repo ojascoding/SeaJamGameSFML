@@ -38,6 +38,7 @@ public:
     //Accessors
 
     bool isPressed() const;
+    sf::Vector2f getPos();
 
     //Functions
     void update(sf::Vector2<int> mousePos);
