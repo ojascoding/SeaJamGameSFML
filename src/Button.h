@@ -30,9 +30,8 @@ private:
 
     void initVariables();
 public:
-    Button(float x, float y , float width, float height,
-           const std::string& text, sf::Font font , sf::Color idleColor,
-           sf::Color hoverColor, sf::Color pressedColor);
+    Button(float x, float y, float width, float height, const std::string &text, sf::Font font, sf::Color idleColor,
+           sf::Color hoverColor, sf::Color pressedColor, int fontSize);
     ~Button();
 
     //Accessors

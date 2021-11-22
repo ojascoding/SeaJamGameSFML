@@ -21,7 +21,9 @@ void UI::initVariables(sf::VideoMode &videoMode)
     if(!font.loadFromFile("../Assets/Fonts/Abel-Regular.ttf"))
         std::cout << "Font Failed to Load" << std::endl;
 
-    button = new Button(videoMode.width / 2 - 80, videoMode.height - 100, 160, 80, "Shop", font, sf::Color(70, 70, 70, 255), sf::Color(100, 100, 100, 200), sf::Color(20, 20, 20, 200));
+    button = new Button(videoMode.width / 2 - 80, videoMode.height - 100, 160, 80, "Shop", font,
+                        sf::Color(70, 70, 70, 255), sf::Color(100, 100, 100, 200), sf::Color(20, 20, 20, 200), 36);
+
 
     if(!shopMenuTexture.loadFromFile("../Assets/Sprites/ShopMenuBackboard.png"))
     {

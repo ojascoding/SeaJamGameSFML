@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o"
   "CMakeFiles/SeaJamGameSFML.dir/src/Button.cpp.o"
   "CMakeFiles/SeaJamGameSFML.dir/src/Game.cpp.o"
   "CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.o"

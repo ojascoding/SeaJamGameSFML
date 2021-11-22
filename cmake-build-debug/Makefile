@@ -129,6 +129,30 @@ SeaJamGameSFML/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/build
 .PHONY : SeaJamGameSFML/fast
 
+ShopMenu.o: ShopMenu.cpp.o
+.PHONY : ShopMenu.o
+
+# target to build an object file
+ShopMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o
+.PHONY : ShopMenu.cpp.o
+
+ShopMenu.i: ShopMenu.cpp.i
+.PHONY : ShopMenu.i
+
+# target to preprocess a source file
+ShopMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.i
+.PHONY : ShopMenu.cpp.i
+
+ShopMenu.s: ShopMenu.cpp.s
+.PHONY : ShopMenu.s
+
+# target to generate assembly for a file
+ShopMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeaJamGameSFML.dir/build.make CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.s
+.PHONY : ShopMenu.cpp.s
+
 src/Button.o: src/Button.cpp.o
 .PHONY : src/Button.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SeaJamGameSFML"
+	@echo "... ShopMenu.o"
+	@echo "... ShopMenu.i"
+	@echo "... ShopMenu.s"
 	@echo "... src/Button.o"
 	@echo "... src/Button.i"
 	@echo "... src/Button.s"
