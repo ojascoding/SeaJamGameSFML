@@ -14,6 +14,7 @@ UI::UI(sf::VideoMode videoMode)
 UI::~UI()
 {
     delete button;
+    delete shopMenu;
 }
 
 void UI::initVariables(sf::VideoMode &videoMode)
@@ -25,15 +26,8 @@ void UI::initVariables(sf::VideoMode &videoMode)
                         sf::Color(70, 70, 70, 255), sf::Color(100, 100, 100, 200), sf::Color(20, 20, 20, 200), 36);
 
 
-    if(!shopMenuTexture.loadFromFile("../Assets/Sprites/ShopMenuBackboard.png"))
-    {
-        print("Failed to load sprite");
-    }
-
-    shopMenuSprite.setTexture(shopMenuTexture);
-
-    shopMenuSprite.setPosition(button->getPos().x - 40, button->getPos().y - 240);
-    shouldShopMenu = false;
+    shopMenu = new ShopMenu(&shouldShopMenu, sf::Vector2f(button->getPos().x - 40, button->getPos().y - 240),
+                            font);
 
     if(!textFont.loadFromFile("../Assets/Fonts/Pixel_Square.ttf"))
         std::cout << "Font failed to load" << std::endl;
@@ -47,13 +41,15 @@ void UI::initVariables(sf::VideoMode &videoMode)
     fishText.setFillColor(sf::Color(212, 175, 55));
 }
 
-void UI::update(sf::RenderWindow* target)
+void UI::update(sf::RenderWindow &target)
 {
-    button->update(sf::Mouse::getPosition(*target));
+    button->update(sf::Mouse::getPosition(target));
     if(button->isPressed())
     {
         shouldShopMenu = !shouldShopMenu;
     }
+
+    shopMenu->update(target);
 }
 
 void UI::render(sf::RenderTarget *target)
@@ -65,6 +61,6 @@ void UI::render(sf::RenderTarget *target)
 
     if(shouldShopMenu)
     {
-        target->draw(shopMenuSprite);
+        shopMenu->render(target);
     }
 }

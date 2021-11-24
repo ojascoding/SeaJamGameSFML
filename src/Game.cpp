@@ -51,10 +51,6 @@ void Game::pollEvents()
             case sf::Event::Closed:
                 window->close();
                 break;
-
-            default:
-                if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
-                    window->close();
         }
 
     }
@@ -65,7 +61,7 @@ void Game::pollEvents()
 void Game::update()
 {
     pollEvents();
-    ui->update(window.get());
+    ui->update(*window);
 }
 
 void Game::render()

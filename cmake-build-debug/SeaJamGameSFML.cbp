@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/ShopMenu.cpp">
-			<Option target="SeaJamGameSFML"/>
-		</Unit>
-		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/ShopMenu.h">
-			<Option target="SeaJamGameSFML"/>
-		</Unit>
 		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Button.cpp">
 			<Option target="SeaJamGameSFML"/>
 		</Unit>
@@ -98,6 +92,12 @@
 			<Option target="SeaJamGameSFML"/>
 		</Unit>
 		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Game.h">
+			<Option target="SeaJamGameSFML"/>
+		</Unit>
+		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.cpp">
+			<Option target="SeaJamGameSFML"/>
+		</Unit>
+		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.h">
 			<Option target="SeaJamGameSFML"/>
 		</Unit>
 		<Unit filename="/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp">

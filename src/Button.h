@@ -18,7 +18,6 @@ class Button
 {
 private:
     ButtonState buttonState;
-
     sf::RectangleShape m_rect;
     std::shared_ptr<sf::Font> m_font;
     sf::Text m_text;

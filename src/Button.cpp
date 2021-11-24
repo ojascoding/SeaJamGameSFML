@@ -16,7 +16,7 @@ Button::Button(float x, float y, float width, float height, const std::string &t
     m_text.setFont(*m_font);
     m_text.setString(text);
     m_text.setFillColor(sf::Color::White);
-    m_text.setCharacterSize(36);
+    m_text.setCharacterSize(fontSize);
 
     m_text.setPosition
     (

@@ -8,6 +8,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include "Button.h"
+#include "ShopMenu.h"
 #include <iostream>
 
 class UI
@@ -16,8 +17,7 @@ private:
     Button* button;
     sf::Font font;
 
-    sf::Texture shopMenuTexture;
-    sf::Sprite shopMenuSprite;
+    ShopMenu* shopMenu;
 
     sf::Text pollutionText;
     sf::Text fishText;
@@ -34,7 +34,7 @@ public:
     UI(sf::VideoMode videoMode);
     ~UI();
 
-    void update(sf::RenderWindow* target);
+    void update(sf::RenderWindow &target);
     void render(sf::RenderTarget *target);
 };
 

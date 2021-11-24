@@ -14,19 +14,17 @@ iostream
 memory
 -
 
-/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp
-UI.h
-/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.cpp
+ShopMenu.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.h
 
-/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.h
+/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.h
 SFML/Graphics.hpp
 -
-SFML/Window.hpp
+iostream
 -
 Button.h
 /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/Button.h
-iostream
--
 
 /opt/homebrew/include/SFML/Config.hpp
 TargetConditionals.h

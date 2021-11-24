@@ -118,18 +118,18 @@ CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/UI.cpp -o CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.s
 
-CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o: CMakeFiles/SeaJamGameSFML.dir/flags.make
-CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o: ../ShopMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o -c /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/ShopMenu.cpp
+CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o: CMakeFiles/SeaJamGameSFML.dir/flags.make
+CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o: ../src/ShopMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o -c /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.cpp
 
-CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/ShopMenu.cpp > CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.i
+CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.cpp > CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.i
 
-CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/ShopMenu.cpp -o CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.s
+CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ojas/Desktop/C++_Programs/SeaJamGameSFML/src/ShopMenu.cpp -o CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.s
 
 # Object files for target SeaJamGameSFML
 SeaJamGameSFML_OBJECTS = \
@@ -137,7 +137,7 @@ SeaJamGameSFML_OBJECTS = \
 "CMakeFiles/SeaJamGameSFML.dir/src/Game.cpp.o" \
 "CMakeFiles/SeaJamGameSFML.dir/src/Button.cpp.o" \
 "CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.o" \
-"CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o"
+"CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o"
 
 # External object files for target SeaJamGameSFML
 SeaJamGameSFML_EXTERNAL_OBJECTS =
@@ -146,7 +146,7 @@ SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/src/main.cpp.o
 SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/src/Game.cpp.o
 SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/src/Button.cpp.o
 SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/src/UI.cpp.o
-SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/ShopMenu.cpp.o
+SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/src/ShopMenu.cpp.o
 SeaJamGameSFML: CMakeFiles/SeaJamGameSFML.dir/build.make
 SeaJamGameSFML: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 SeaJamGameSFML: /opt/homebrew/lib/libsfml-audio.2.5.1.dylib
